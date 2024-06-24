@@ -1,0 +1,406 @@
+[2024-05-23 00:24:09] [ WARN ] [BD:37] org.h2.Driver
+[2024-05-23 00:24:44] [ INFO ] [OdontologoDAOH2:44] iniciando busqueda por id: 1
+[2024-05-23 00:24:44] [ ERROR] [OdontologoDAOH2:57] org.h2.Driver
+[2024-05-23 00:29:13] [ WARN ] [BD:37] org.h2.Driver
+[2024-05-23 00:30:39] [ WARN ] [BD:37] Tabla "DOMICILIOS" no encontrada
+Table "DOMICILIOS" not found; SQL statement:
+INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES ('Siempre viva',742,'Springfield','USA'), ('Siempre viva',742,'Springfield','USA') [42102-224]
+[2024-05-23 00:31:36] [ INFO ] [BD:34] tabla creada con exito
+[2024-05-23 00:31:48] [ INFO ] [OdontologoDAOH2:44] iniciando busqueda por id: 1
+[2024-05-27 22:42:18] [ INFO ] [BD:32] tabla creada con exito
+[2024-05-27 22:43:30] [ INFO ] [PacienteDAOH2:57] iniciando la busqueda de un paciente por id: 1
+[2024-05-27 22:49:10] [ INFO ] [BD:32] tabla creada con exito
+[2024-05-27 22:49:47] [ INFO ] [PacienteDAOH2:57] iniciando la busqueda de un paciente por id: 1
+[2024-05-27 22:49:47] [ INFO ] [PacienteDAOH2:104] iniciando eliminación de un paciente por id: 1
+[2024-05-27 22:49:47] [ INFO ] [PacienteDAOH2:57] iniciando la busqueda de un paciente por id: 1
+[2024-05-27 22:49:47] [ INFO ] [DomicilioDaoH2:90] iniciando eliminación de un domicilio por id: 1
+[2024-05-27 22:49:47] [ INFO ] [DomicilioDaoH2:97] Domicilio eliminado con éxito
+[2024-05-27 22:49:47] [ WARN ] [PacienteDAOH2:116] Valor Invalido "7" para el parametro "parameterIndex"
+Invalid value "7" for parameter "parameterIndex" [90008-224]
+[2024-05-27 22:53:36] [ INFO ] [BD:32] tabla creada con exito
+[2024-05-27 22:53:55] [ INFO ] [PacienteDAOH2:122] iniciando la busqueda de todos los pacientes
+[2024-05-27 22:53:55] [ INFO ] [PacienteDAOH2:136] Buscado con éxito
+[2024-05-27 22:53:55] [ INFO ] [PacienteDAOH2:136] Buscado con éxito
+[2024-05-27 23:44:05] [ INFO ] [BD:32] tabla creada con exito
+[2024-05-27 23:47:37] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado
+[2024-05-27 23:47:37] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-27 23:47:57] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado
+[2024-05-27 23:47:57] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-27 23:54:11] [ INFO ] [BD:32] tabla creada con exito
+[2024-05-27 23:54:30] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado
+[2024-05-27 23:54:30] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-27 23:59:24] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-27 23:59:55] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-28 00:12:45] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-28 00:15:12] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-28 00:15:37] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado
+[2024-05-28 00:15:37] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-28 00:16:46] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-28 00:16:49] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado
+[2024-05-28 00:16:49] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-28 00:17:43] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado
+[2024-05-28 00:17:43] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-28 00:19:00] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-28 00:19:38] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: null
+[2024-05-28 00:19:38] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2024-05-28 00:20:00] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 3
+[2024-05-28 00:20:00] [ INFO ] [OdontologoDAOH2:70] iniciando actulización de un paciente por id: 3
+[2024-05-28 00:20:00] [ WARN ] [OdontologoDAOH2:82] Error de Sintaxis en sentencia SQL "UPDATE ODONTOLOGOS SET(MATRICULA [*]= ?, NOMBRE = ?, APELLIDO = ?) WHERE ID = ?"; se esperaba "., [, ,, )"
+Syntax error in SQL statement "UPDATE ODONTOLOGOS SET(MATRICULA [*]= ?, NOMBRE = ?, APELLIDO = ?) WHERE ID = ?"; expected "., [, ,, )"; SQL statement:
+UPDATE ODONTOLOGOS SET(MATRICULA = ?, NOMBRE = ?, APELLIDO = ?) WHERE ID = ? [42001-224]
+[2024-05-28 00:20:31] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 3
+[2024-05-28 00:21:08] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-28 00:21:08] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 1
+[2024-05-28 00:21:08] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-05-28 00:21:31] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-28 00:22:53] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-28 00:22:58] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 3
+[2024-05-28 00:23:05] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-28 00:23:21] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado
+[2024-05-28 00:23:21] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-28 00:23:26] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 3
+[2024-05-28 00:23:30] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-05-28 00:23:30] [ INFO ] [OdontologoDAOH2:70] iniciando actulización de un paciente por id: 2
+[2024-05-28 00:23:30] [ INFO ] [OdontologoDAOH2:80] Actualización exitosa
+[2024-05-28 00:23:35] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-28 00:27:37] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-05-28 00:28:22] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-28 00:32:29] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-28 00:33:53] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-28 00:33:57] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado
+[2024-05-28 00:33:57] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-29 22:36:43] [ WARN ] [BD:38] Conversión de datos fallida, convirtiendo "'1BC2' (ODONTOLOGOS: ""MATRICULA"" INTEGER NOT NULL)"
+Data conversion error converting "'1BC2' (ODONTOLOGOS: ""MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGOS(MATRICULA, NOMBRE, APELLIDO) VALUES ('1BC2', 'Avril','Tihista') [22018-224]
+[2024-05-29 22:38:10] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-29 22:38:26] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: David
+[2024-05-29 22:38:26] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-29 22:38:47] [ INFO ] [PacienteDAOH2:30] inicando la operacion de guardado
+[2024-05-29 22:38:47] [ INFO ] [DomicilioDaoH2:30] inicando la operacion de guardado
+[2024-05-29 22:38:47] [ WARN ] [DomicilioDaoH2:44] Cannot invoke "com.example.ProyectoIntegrador.entity.Domicilio.getCalle()" because "domicilio" is null
+[2024-05-29 22:38:47] [ WARN ] [PacienteDAOH2:50] Cannot invoke "com.example.ProyectoIntegrador.entity.Domicilio.getId()" because "domicilio" is null
+[2024-05-29 22:39:51] [ INFO ] [PacienteDAOH2:122] iniciando la busqueda de todos los pacientes
+[2024-05-29 22:39:51] [ INFO ] [PacienteDAOH2:136] Buscado con éxito
+[2024-05-29 22:39:51] [ INFO ] [PacienteDAOH2:136] Buscado con éxito
+[2024-05-29 22:42:03] [ INFO ] [PacienteDAOH2:30] inicando la operacion de guardado
+[2024-05-29 22:42:03] [ INFO ] [DomicilioDaoH2:30] inicando la operacion de guardado
+[2024-05-29 22:42:03] [ WARN ] [DomicilioDaoH2:44] Cannot invoke "com.example.ProyectoIntegrador.entity.Domicilio.getCalle()" because "domicilio" is null
+[2024-05-29 22:42:03] [ WARN ] [PacienteDAOH2:50] Cannot invoke "com.example.ProyectoIntegrador.entity.Domicilio.getId()" because "domicilio" is null
+[2024-05-29 22:46:28] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-29 22:46:33] [ INFO ] [PacienteDAOH2:30] inicando la operacion de guardado
+[2024-05-29 22:46:33] [ INFO ] [DomicilioDaoH2:30] inicando la operacion de guardado
+[2024-05-29 22:46:34] [ WARN ] [PacienteDAOH2:48] La columna "EMAIL" no permite valores nulos (NULL)
+NULL not allowed for column "EMAIL"; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VALUES(?,?,?,?,?) [23502-224]
+[2024-05-29 22:47:35] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-29 22:47:40] [ INFO ] [PacienteDAOH2:30] inicando la operacion de guardado
+[2024-05-29 22:47:40] [ INFO ] [DomicilioDaoH2:30] inicando la operacion de guardado
+[2024-05-29 22:47:40] [ WARN ] [PacienteDAOH2:48] Parametro "#6" no está fijado
+Parameter "#6" is not set; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID, EMAIL) VALUES(?,?,?,?,?,?) [90012-224]
+[2024-05-29 22:48:57] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-29 22:49:05] [ INFO ] [PacienteDAOH2:30] inicando la operacion de guardado
+[2024-05-29 22:49:05] [ INFO ] [DomicilioDaoH2:30] inicando la operacion de guardado
+[2024-05-29 22:49:11] [ INFO ] [PacienteDAOH2:121] iniciando la busqueda de todos los pacientes
+[2024-05-29 22:49:11] [ INFO ] [PacienteDAOH2:135] Buscado con éxito
+[2024-05-29 22:49:11] [ INFO ] [PacienteDAOH2:135] Buscado con éxito
+[2024-05-29 22:49:11] [ INFO ] [PacienteDAOH2:135] Buscado con éxito
+[2024-05-29 22:49:26] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: null
+[2024-05-29 22:49:26] [ WARN ] [OdontologoDAOH2:43] La columna "MATRICULA" no permite valores nulos (NULL)
+NULL not allowed for column "MATRICULA"; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [23502-224]
+[2024-05-29 22:50:48] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: null
+[2024-05-29 22:50:48] [ WARN ] [OdontologoDAOH2:43] La columna "MATRICULA" no permite valores nulos (NULL)
+NULL not allowed for column "MATRICULA"; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [23502-224]
+[2024-05-29 22:52:14] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-29 22:52:30] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: null
+[2024-05-29 22:52:30] [ WARN ] [OdontologoDAOH2:43] La columna "MATRICULA" no permite valores nulos (NULL)
+NULL not allowed for column "MATRICULA"; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [23502-224]
+[2024-05-29 22:52:56] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 2
+[2024-05-29 22:52:56] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-29 22:52:56] [ INFO ] [TurnosDAOLISTA:17] iniciando las operaciones de guardado de un turno
+[2024-05-29 22:52:56] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 2
+[2024-05-29 22:52:56] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-29 22:52:56] [ INFO ] [TurnosDAOLISTA:23] turno guardado
+[2024-05-29 22:53:11] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-29 22:53:11] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-29 22:53:11] [ INFO ] [TurnosDAOLISTA:17] iniciando las operaciones de guardado de un turno
+[2024-05-29 22:53:11] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-29 22:53:11] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-29 22:53:11] [ INFO ] [TurnosDAOLISTA:23] turno guardado
+[2024-05-30 00:24:32] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-30 00:26:05] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: David
+[2024-05-30 00:26:05] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 00:26:11] [ INFO ] [PacienteDAOH2:30] inicando la operacion de guardado
+[2024-05-30 00:26:11] [ INFO ] [DomicilioDaoH2:30] inicando la operacion de guardado
+[2024-05-30 00:26:17] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 00:26:17] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:26:17] [ INFO ] [TurnosDAOLISTA:19] iniciando las operaciones de guardado de un turno
+[2024-05-30 00:26:17] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 00:26:17] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:26:17] [ INFO ] [TurnosDAOLISTA:27] turno guardado
+[2024-05-30 00:26:51] [ INFO ] [TurnosDAOLISTA:43] iniciando las operaciones de actualizar un turno
+[2024-05-30 00:27:26] [ INFO ] [TurnosDAOLISTA:49] iniciando las operaciones de eliminar un turno
+[2024-05-30 00:28:59] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-30 00:29:05] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: David
+[2024-05-30 00:29:05] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 00:29:08] [ INFO ] [PacienteDAOH2:30] inicando la operacion de guardado
+[2024-05-30 00:29:08] [ INFO ] [DomicilioDaoH2:30] inicando la operacion de guardado
+[2024-05-30 00:29:12] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 00:29:12] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:29:12] [ INFO ] [TurnosDAOLISTA:19] iniciando las operaciones de guardado de un turno
+[2024-05-30 00:29:12] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 00:29:12] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:29:12] [ INFO ] [TurnosDAOLISTA:27] turno guardado
+[2024-05-30 00:29:26] [ INFO ] [TurnosDAOLISTA:43] iniciando las operaciones de actualizar un turno
+[2024-05-30 00:29:59] [ INFO ] [TurnosDAOLISTA:49] iniciando las operaciones de eliminar un turno
+[2024-05-30 00:30:36] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-30 00:30:44] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: David
+[2024-05-30 00:30:44] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 00:30:48] [ INFO ] [PacienteDAOH2:30] inicando la operacion de guardado
+[2024-05-30 00:30:48] [ INFO ] [DomicilioDaoH2:30] inicando la operacion de guardado
+[2024-05-30 00:30:51] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 00:30:52] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:30:52] [ INFO ] [TurnosDAOLISTA:19] iniciando las operaciones de guardado de un turno
+[2024-05-30 00:30:52] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 00:30:52] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:30:52] [ INFO ] [TurnosDAOLISTA:27] turno guardado
+[2024-05-30 00:31:05] [ INFO ] [TurnosDAOLISTA:43] iniciando las operaciones de actualizar un turno
+[2024-05-30 00:32:04] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-30 00:32:08] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: David
+[2024-05-30 00:32:08] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 00:32:10] [ INFO ] [PacienteDAOH2:30] inicando la operacion de guardado
+[2024-05-30 00:32:10] [ INFO ] [DomicilioDaoH2:30] inicando la operacion de guardado
+[2024-05-30 00:32:12] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 00:32:12] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:32:12] [ INFO ] [TurnosDAOLISTA:19] iniciando las operaciones de guardado de un turno
+[2024-05-30 00:32:12] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 00:32:12] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:32:12] [ INFO ] [TurnosDAOLISTA:27] turno guardado
+[2024-05-30 00:32:18] [ INFO ] [TurnosDAOLISTA:43] iniciando las operaciones de actualizar un turno
+[2024-05-30 00:42:38] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-30 00:45:34] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: David
+[2024-05-30 00:45:34] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 00:45:36] [ INFO ] [PacienteDAOH2:30] inicando la operacion de guardado
+[2024-05-30 00:45:36] [ INFO ] [DomicilioDaoH2:30] inicando la operacion de guardado
+[2024-05-30 00:45:39] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 00:45:39] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:45:39] [ INFO ] [TurnosDAOLISTA:19] iniciando las operaciones de guardado de un turno
+[2024-05-30 00:45:39] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 00:45:39] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:45:39] [ INFO ] [TurnosDAOLISTA:27] turno guardado
+[2024-05-30 00:45:47] [ INFO ] [TurnosDAOLISTA:43] iniciando las operaciones de actualizar un turno
+[2024-05-30 00:47:54] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-05-30 00:47:54] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 00:49:43] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 00:55:19] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-30 00:55:32] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 00:55:36] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:55:46] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 00:55:46] [ INFO ] [OdontologoDAOH2:70] iniciando actulización de un paciente por id: 1
+[2024-05-30 00:55:46] [ INFO ] [OdontologoDAOH2:80] Actualización exitosa
+[2024-05-30 00:55:46] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 00:57:01] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-30 00:57:28] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Victor
+[2024-05-30 00:57:28] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 00:57:51] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 00:57:53] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-05-30 00:57:53] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 2
+[2024-05-30 00:57:53] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-05-30 00:58:02] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:00:18] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Victor
+[2024-05-30 01:00:18] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 01:00:25] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:00:26] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 3
+[2024-05-30 01:00:26] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 3
+[2024-05-30 01:00:26] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-05-30 01:00:28] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:09:47] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-30 01:10:27] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Paula
+[2024-05-30 01:10:27] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 01:10:36] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Fernando
+[2024-05-30 01:10:36] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 01:10:42] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:11:19] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:11:20] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:11:27] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: David
+[2024-05-30 01:11:27] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 01:11:29] [ INFO ] [PacienteDAOH2:30] inicando la operacion de guardado
+[2024-05-30 01:11:29] [ INFO ] [DomicilioDaoH2:30] inicando la operacion de guardado
+[2024-05-30 01:11:30] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 01:11:30] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 01:11:30] [ INFO ] [TurnosDAOLISTA:19] iniciando las operaciones de guardado de un turno
+[2024-05-30 01:11:30] [ INFO ] [PacienteDAOH2:56] iniciando la busqueda de un paciente por id: 3
+[2024-05-30 01:11:30] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-05-30 01:11:30] [ INFO ] [TurnosDAOLISTA:27] turno guardado
+[2024-05-30 01:11:32] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:11:35] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:11:45] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Avril 
+[2024-05-30 01:11:45] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 01:11:55] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:12:05] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:12:07] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:12:10] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:16:11] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-30 01:16:27] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:20:23] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: David
+[2024-05-30 01:20:23] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 01:20:29] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:20:49] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:21:22] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Avi
+[2024-05-30 01:21:22] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 01:21:28] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:22:14] [ INFO ] [BD:35] tabla creada con exito
+[2024-05-30 01:22:16] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-05-30 01:22:26] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-05-30 01:22:26] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-05-30 01:22:33] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:14:30] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 17:14:43] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:15:03] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-01 17:15:03] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 17:15:19] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:15:22] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:15:22] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 2
+[2024-06-01 17:15:22] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 17:15:27] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:15:29] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:18:25] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:20:42] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 17:22:25] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:23:01] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-01 17:23:01] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 17:23:08] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:23:09] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:23:09] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 2
+[2024-06-01 17:23:09] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 17:23:28] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:23:31] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:25:03] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 17:26:54] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 17:27:17] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:27:23] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-01 17:27:23] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 17:27:25] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:27:26] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:27:26] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 2
+[2024-06-01 17:27:26] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 17:28:18] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 17:28:21] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:28:28] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-01 17:28:28] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 17:28:31] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:28:32] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:28:32] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 2
+[2024-06-01 17:28:32] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 17:37:40] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 17:37:43] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:37:49] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-01 17:37:49] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 17:37:52] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:37:53] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:37:53] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 2
+[2024-06-01 17:37:53] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 17:38:03] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:39:21] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-01 17:39:21] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 17:39:22] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:39:23] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 3
+[2024-06-01 17:39:23] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 3
+[2024-06-01 17:39:23] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 17:41:01] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 17:41:03] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:41:08] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-06-01 17:41:08] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 1
+[2024-06-01 17:41:08] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 17:46:43] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 17:46:52] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-01 17:46:52] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 17:46:54] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:46:55] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:46:55] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 2
+[2024-06-01 17:46:55] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 17:47:01] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:47:53] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 17:47:59] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-06-01 17:47:59] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 1
+[2024-06-01 17:47:59] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 17:48:01] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:48:09] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Victor
+[2024-06-01 17:48:09] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 17:48:11] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:48:12] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:48:12] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 2
+[2024-06-01 17:48:12] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 17:58:44] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 17:59:20] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 17:59:29] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:59:29] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:59:30] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 17:59:31] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 17:59:33] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-06-01 17:59:33] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 1
+[2024-06-01 17:59:33] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 18:03:06] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 18:03:12] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 18:03:13] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-06-01 18:03:13] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 1
+[2024-06-01 18:03:13] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 18:03:34] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 18:03:51] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-01 18:03:51] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 18:04:08] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 18:04:12] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 18:04:12] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 2
+[2024-06-01 18:04:12] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 18:04:12] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 18:04:22] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Victor
+[2024-06-01 18:04:22] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 18:04:24] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 18:04:26] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 3
+[2024-06-01 18:04:26] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 3
+[2024-06-01 18:04:26] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 18:04:26] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 18:05:01] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 18:05:09] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Victor
+[2024-06-01 18:05:09] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 18:06:02] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 18:06:29] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-01 18:06:29] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 18:08:01] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 18:08:12] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Avi
+[2024-06-01 18:08:12] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 18:08:25] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 18:08:43] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Victor
+[2024-06-01 18:08:43] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 18:09:15] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 18:09:39] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Avril
+[2024-06-01 18:09:39] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 18:10:57] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 18:11:06] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-01 18:11:06] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 18:20:47] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 18:21:07] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-01 18:21:07] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 18:22:49] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-01 18:23:01] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Victor
+[2024-06-01 18:23:01] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-01 18:23:06] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 18:23:07] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-01 18:23:07] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 2
+[2024-06-01 18:23:07] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 18:23:07] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-01 18:23:08] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-06-01 18:23:08] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 1
+[2024-06-01 18:23:08] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-01 18:23:08] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-02 10:01:23] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-02 10:02:17] [ INFO ] [OdontologoDAOH2:28] inicando la operacion de guardado de: Carol
+[2024-06-02 10:02:17] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-02 10:02:20] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-02 10:02:22] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-02 10:02:22] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 2
+[2024-06-02 10:02:22] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-02 10:02:23] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
