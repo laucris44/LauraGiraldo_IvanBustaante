@@ -20,7 +20,7 @@ public class DatosIniciales implements ApplicationRunner {
         String passSinCifrar= "admin";
         String passCifrado= passwordEncoder.encode(passSinCifrar);
         Usuario usuario= new Usuario("jorgito", UsuarioRole.ROLE_USER,passCifrado,"admin@admin.com","jpereyradh");
-        Usuario usuario2= new Usuario("Avril", UsuarioRole.ROLE_ADMIN,passCifrado,"avril@admin.com","Avril");
+        Usuario usuario2= new Usuario("Ivan", UsuarioRole.ROLE_ADMIN,passCifrado,"Ivan@admin.com","Ivan");
         System.out.println("pass cifrado: "+passCifrado);
         usuarioRepository.save(usuario);
         usuarioRepository.save(usuario2);

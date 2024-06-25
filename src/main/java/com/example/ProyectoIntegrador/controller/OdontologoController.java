@@ -4,6 +4,7 @@ import com.example.ProyectoIntegrador.exception.BadRequestException;
 import com.example.ProyectoIntegrador.exception.ResourceNotFoundException;
 import com.example.ProyectoIntegrador.entity.Odontologo;
 import com.example.ProyectoIntegrador.service.OdontologoService;
+import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -20,6 +21,7 @@ public class OdontologoController {
     private OdontologoService odontologoService;
 
     @PostMapping
+    @Operation(summary = "nos permite registrar un objeto odontologo", description = "devuelve el objeto completo")
     public ResponseEntity<Odontologo> registrarUnOdontologo(@RequestBody Odontologo odontologo) throws BadRequestException{
         Optional<Odontologo> odontologoBuscado= odontologoService.buscarPorMatricula(odontologo.getMatricula());
         if(odontologoBuscado.isPresent()){
