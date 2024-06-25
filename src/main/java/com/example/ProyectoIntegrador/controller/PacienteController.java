@@ -5,6 +5,7 @@ import com.example.ProyectoIntegrador.exception.BadRequestException;
 import com.example.ProyectoIntegrador.exception.ResourceNotFoundException;
 import com.example.ProyectoIntegrador.entity.Paciente;
 import com.example.ProyectoIntegrador.service.PacienteService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,6 +15,7 @@ import java.util.Optional;
 
 @RestController //cambiamos pq no necesitamos tecnologia de vista.
 @RequestMapping("/paciente")
+@Tag(name = "Controller de Pacientes", description = "este endpoint nos permite operar solo con paciente")
 public class PacienteController {
     @Autowired
     private PacienteService pacienteService;

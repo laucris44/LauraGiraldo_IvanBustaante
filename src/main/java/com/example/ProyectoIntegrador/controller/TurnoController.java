@@ -10,6 +10,8 @@ import com.example.ProyectoIntegrador.service.OdontologoService;
 import com.example.ProyectoIntegrador.service.PacienteService;
 import com.example.ProyectoIntegrador.service.TurnoService;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -20,6 +22,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/turnos")
+@Tag(name = "Controller de Turnos", description = "este endpoint nos permite operar solo con turnos, nos devuelve un dto")
 public class TurnoController {
     @Autowired
     private TurnoService turnoService;
@@ -30,6 +33,7 @@ public class TurnoController {
     @Autowired
     private OdontologoService odontologoService;
     @PostMapping
+    @Operation(summary = "nos permite registar un objeto turno", description = "devuelve un objeto dto")
     public ResponseEntity<TurnoDTO> registrarUnTurno(@RequestBody Turno turno) throws BadRequestException {
         Optional<Paciente> paciente = pacienteService.buscarPaciente(turno.getPaciente().getId());
         Optional<Odontologo> odontologo = odontologoService.buscarOdontologo(turno.getOdontologo().getId());
